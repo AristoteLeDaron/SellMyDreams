@@ -1,0 +1,15 @@
+.header {
+  background-image: url('/imagessite/cielEtoile.jpg'); /* Assurez-vous que le format est .jpg, .png, ou .svg */
+  background-size: cover;
+  background-position: center;
+  height: 200px; /* Ou la hauteur que vous voulez pour votre en-tête */
+  position: relative;
+}
+
+.logo {
+  width: 150px; /* Ou la largeur désirée */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
