@@ -1,15 +1,20 @@
 .header {
-  background-image: url('/imagessite/cielEtoile.jpg'); /* Assurez-vous que le format est .jpg, .png, ou .svg */
+  background-image: url('../../../public/imagessite/cielEtoile.jpg');
   background-size: cover;
   background-position: center;
-  height: 200px; /* Ou la hauteur que vous voulez pour votre en-tête */
-  position: relative;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10%; /* Ajout de padding pour éviter que le contenu touche les bords */
 }
 
 .logo {
-  width: 150px; /* Ou la largeur désirée */
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  width: 8em;
+}
+
+.header-title {
+  color: whitesmoke;
+  font-family: 'Arial', sans-serif;
+  font-size: 2em;
 }
