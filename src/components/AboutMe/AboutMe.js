@@ -1,10 +1,10 @@
 import React from 'react';
-import './Home.css';
+import './AboutMe.css';
 
 const AboutMe = () => {
   return (
     <div className="aboutMe">
-      <p>bois de l'eau</p>
+      <p>Mange du coca</p>
     </div>
   );
 };
